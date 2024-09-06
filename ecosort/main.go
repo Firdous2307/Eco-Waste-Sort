@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+    "ecosort/cmd"
+)
 
 func main() {
-	fmt.Println("Let's Start")
+    cmd.Execute()
 }
